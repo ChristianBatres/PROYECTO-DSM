@@ -73,9 +73,10 @@
             android:id="@+id/editFechaNacimiento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="FECHA DE NACIMIENTO:"
             android:layout_margin="5dp"
-            android:inputType="date"/>
+            android:focusable="false"
+            android:hint="FECHA DE NACIMIENTO:"
+            android:inputType="date" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
