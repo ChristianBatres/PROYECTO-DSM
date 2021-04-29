@@ -13,13 +13,23 @@
         </activity>
         <activity android:name=".AddClientesActivity" />
         <activity android:name=".AdaptadorClientes" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".add_medicos"></activity>
+        <activity android:name=".MedicosActivity"></activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".ActivitySplash"
+            android:label="Dental Clinic"
+            android:theme="@style/ThemeSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="LOGIN" />
     </application>
 
 </manifest>
