@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoDSM">
         <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".add_medicos"></activity>
+        <activity android:name=".MedicosActivity"></activity>
         <activity android:name=".RegistrationActivity" />
         <activity
             android:name=".ActivitySplash"
