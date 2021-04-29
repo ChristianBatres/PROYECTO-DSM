@@ -3,8 +3,6 @@ package sv.edu.udb.proyectodsm;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import androidx.annotation.NonNull;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -17,6 +15,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
     private EditText emailTV, passwordTV;
