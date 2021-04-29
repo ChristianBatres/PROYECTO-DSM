@@ -2,7 +2,8 @@ package sv.edu.udb.proyectodsm;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(getApplicationContext(), "Acceso Exitoso!", Toast.LENGTH_LONG).show();
                             progressBar.setVisibility(View.GONE);
-                            Intent intent = new Intent(MainActivity.this, MedicosActivity.class);
+                            Intent intent = new Intent(MainActivity.this, ClientesActivity.class);
                          //   intent.putExtra("txtcorreo", emailTV.getText().toString());
                             startActivity(intent);
                         }

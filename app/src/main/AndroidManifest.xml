@@ -12,7 +12,6 @@
         <activity android:name=".ClientesActivity" >
         </activity>
         <activity android:name=".AddClientesActivity" />
-        <activity android:name=".AdaptadorClientes" />
         <activity android:name=".DashboardActivity"></activity>
         <activity android:name=".add_medicos"></activity>
         <activity android:name=".MedicosActivity"></activity>
