@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sv.edu.udb.proyectodsm">
+    package="sv.edu.udb.proyectodsm" >
 
     <application
         android:allowBackup="true"
@@ -8,17 +8,33 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProyectoDSM">
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".CitasActivity">
+
+        android:theme="@style/Theme.ProyectoDSM" >
+        <activity android:name=".ClientesActivity" >
+        </activity>
+        <activity android:name=".AddClientesActivity" />
+        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".add_medicos"></activity>
+        <activity android:name=".MedicosActivity"></activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".ActivitySplash"
+            android:label="Dental Clinic"
+            android:theme="@style/ThemeSplash">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddCitasActivity"></activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="LOGIN" />
     </application>
 
 </manifest>
