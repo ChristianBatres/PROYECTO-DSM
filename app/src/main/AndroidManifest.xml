@@ -19,7 +19,10 @@
         <activity android:name=".add_medicos"></activity>
         <activity android:name=".AddCitasActivity"></activity>
         <activity android:name=".MedicosActivity"></activity>
-        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".RegistrationActivity"></activity>
+            <activity android:name=".ActivityInventario" />
+        <activity android:name=".AgregarInventario"/>
+
         <activity
             android:name=".ActivitySplash"
             android:label="Dental Clinic"
