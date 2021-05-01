@@ -9,3 +9,4 @@ Fuentes Galdámez, Dairo Jonathan                 FG180442-GT02
 Hernández López, Manuel Oswaldo                  HL180507-GT02
 
 Link Mock Ups:https://drive.google.com/file/d/1aT18YgToIcIz-t9qG8dURXkMOBwaNtqb/view?usp=sharing
+Link Video Funcionamiento https://bit.ly/3xE8922
