@@ -20,8 +20,10 @@
         <activity android:name=".AddCitasActivity"></activity>
         <activity android:name=".MedicosActivity"></activity>
         <activity android:name=".RegistrationActivity"></activity>
-            <activity android:name=".ActivityInventario" />
+        <activity android:name=".ActivityInventario" />
         <activity android:name=".AgregarInventario"/>
+        <activity android:name=".ActivitySala" />
+        <activity android:name=".AgregarSala"/>
 
         <activity
             android:name=".ActivitySplash"
