@@ -13,13 +13,16 @@
         <activity android:name=".CitasActivity"></activity>
         <activity android:name=".ClientesActivity"></activity>
         <activity android:name=".AddClientesActivity" />
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".add_medicos" />
-        <activity android:name=".AddCitasActivity" />
-        <activity android:name=".MedicosActivity" />
-        <activity android:name=".RegistrationActivity" />
+
+        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".add_medicos"></activity>
+        <activity android:name=".AddCitasActivity"></activity>
+        <activity android:name=".MedicosActivity"></activity>
+        <activity android:name=".RegistrationActivity"></activity>
         <activity android:name=".ActivityInventario" />
-        <activity android:name=".AgregarInventario" />
+        <activity android:name=".AgregarInventario"/>
+        <activity android:name=".ActivitySala" />
+        <activity android:name=".AgregarSala"/>
         <activity
             android:name=".ActivitySplash"
             android:label="Dental Clinic"

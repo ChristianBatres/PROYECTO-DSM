@@ -80,7 +80,9 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(getApplicationContext(), "Acceso Exitoso!", Toast.LENGTH_LONG).show();
                             progressBar.setVisibility(View.GONE);
+
                             Intent intent = new Intent(MainActivity.this, DashboardActivity.class);
+
                          //   intent.putExtra("txtcorreo", emailTV.getText().toString());
                             startActivity(intent);
                         }
