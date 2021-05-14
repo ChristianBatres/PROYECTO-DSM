@@ -20,7 +20,7 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     public void salas (View v) {
-        Intent i=new Intent(this, AgregarSala.class);
+        Intent i=new Intent(this, ActivitySala.class);
         startActivity(i);
     }
     public void pacientes (View v) {
