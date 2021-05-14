@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
 
     private FirebaseAuth mAuth;
-    Button registerBtn;
+    Button registerBtn, restablecerBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, RegistrationActivity.class);
+                startActivity(intent);
+            }
+        });
+        restablecerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, restablecer.class);
                 startActivity(intent);
             }
         });
@@ -73,7 +80,9 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(getApplicationContext(), "Acceso Exitoso!", Toast.LENGTH_LONG).show();
                             progressBar.setVisibility(View.GONE);
-                            Intent intent = new Intent(MainActivity.this, ActivitySala.class);
+
+                            Intent intent = new Intent(MainActivity.this, DashboardActivity.class);
+
                          //   intent.putExtra("txtcorreo", emailTV.getText().toString());
                             startActivity(intent);
                         }
@@ -92,5 +101,6 @@ public class MainActivity extends AppCompatActivity {
         loginBtn = findViewById(R.id.login);
         progressBar = findViewById(R.id.progressBar);
         registerBtn = findViewById(R.id.register);
+        restablecerBtn = findViewById(R.id.restablecer);
     }
 }

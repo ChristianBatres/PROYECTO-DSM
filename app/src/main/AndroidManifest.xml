@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sv.edu.udb.proyectodsm" >
+    package="sv.edu.udb.proyectodsm">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon='@drawable/dentalogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/dentalogo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProyectoDSM" >
-
-        <activity android:name=".CitasActivity">
-        </activity>
-        <activity android:name=".ClientesActivity" >
-        </activity>
+        android:theme="@style/Theme.ProyectoDSM">
+        <activity android:name=".restablecer"></activity>
+        <activity android:name=".CitasActivity"></activity>
+        <activity android:name=".ClientesActivity"></activity>
         <activity android:name=".AddClientesActivity" />
+
         <activity android:name=".DashboardActivity"></activity>
         <activity android:name=".add_medicos"></activity>
         <activity android:name=".AddCitasActivity"></activity>
@@ -24,12 +23,10 @@
         <activity android:name=".AgregarInventario"/>
         <activity android:name=".ActivitySala" />
         <activity android:name=".AgregarSala"/>
-
         <activity
             android:name=".ActivitySplash"
             android:label="Dental Clinic"
             android:theme="@style/ThemeSplash">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
