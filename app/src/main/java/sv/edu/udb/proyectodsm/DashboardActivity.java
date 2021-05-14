@@ -18,6 +18,11 @@ public class DashboardActivity extends AppCompatActivity {
         Intent i=new Intent(this, CitasActivity.class);
         startActivity(i);
     }
+
+    public void salas (View v) {
+        Intent i=new Intent(this, AgregarSala.class);
+        startActivity(i);
+    }
     public void pacientes (View v) {
         Intent i=new Intent(this, ClientesActivity.class);
         startActivity(i);
